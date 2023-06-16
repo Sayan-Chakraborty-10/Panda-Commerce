@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.div{
+    display: flex;
+}
+.div1{
+    margin-left: 70px;
+}
+.h1{
+    margin-left: 170px;
+}
+.h2{
+    margin-left: 60px;
+}
+.fa-chevron-right{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: ghostwhite;
+}
+.fa-chevron-left{
+    font-weight: bolder;
+    font-size: xx-large;
+    color: ghostwhite;
+}
+.bg-color{
+    background-color: #FEEAE9;
+}
+.color{
+    color:#FF3C83;
+}
+.link-color{
+   background-image: linear-gradient(#FF3C83, #D31A50);
+    border: 1px solid rgb(219 39 119);
+}
+.watch{
+    background-image: linear-gradient(goldenrod, gold );
+}
+.bag{
+    background-image: linear-gradient(#FF3C83, #D31A50);
+}
+.shoes{
+    background-image: linear-gradient( rgb(9, 75, 255), rgb(68, 60, 185));
+}
+@media screen and (max-width:576px) {
+    Body{
+        width: 100%;
+    }
+    .div{
+        flex-direction: column;
+    }
+    .div1{
+        width: 300px;
+        margin-left: 100px;
+    }
+    .h1{
+        margin-left: 100px;
+    }
+    .h2{
+        margin-left: 90px;
+    }
+}
